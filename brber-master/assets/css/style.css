@@ -1543,7 +1543,7 @@ hr {
 }
 
 .pb-170 {
-    padding-bottom: 170px
+    padding-bottom: 140px
 }
 
 .pb-175 {
@@ -1991,7 +1991,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #d19f68;
+    border-top-color: rgb(50, 72, 196);
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -2209,7 +2209,7 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .w-padding {
-        padding-top: 70px;
+        padding-top: 120px;
         padding-bottom: 70px
     }
 }
@@ -2222,7 +2222,7 @@ hr {
 }
 
 .section-padding30 {
-    padding-top: 195px;
+    padding-top: 70px;
     padding-bottom: 180px
 }
 
@@ -3348,7 +3348,7 @@ hr {
 }
 
 .service-area .services-caption .service-icon::before {
-    background-image: url(../img/gallery/dot.png);
+    background-image: url(../img/gallery/dot2.png);
     content: "";
     width: 80px;
     height: 135px;
@@ -3371,7 +3371,7 @@ hr {
     display: block;
     line-height: 105px;
     text-align: center;
-    background: #1d2434;
+    background: rgb(202, 65, 65);
     margin-bottom: 42px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -3396,7 +3396,7 @@ hr {
 }
 
 .services-caption:hover .service-icon i {
-    background: #d19f68
+    background: rgb(128, 42, 42)
 }
 
 .best-pricing {
@@ -3619,7 +3619,7 @@ hr {
 }
 
 .cut-details .dot-style .slick-dots li.slick-active button {
-    background: #d19f68;
+    background: rgb(50, 72, 196);
     width: 35px
 }
 
@@ -3902,7 +3902,7 @@ hr {
 }
 
 .team-area .dot-style .slick-dots li.slick-active button {
-    background: #d19f68;
+    background: rgb(50, 72, 196);
     width: 35px
 }
 
@@ -3949,7 +3949,7 @@ hr {
 }
 
 .footer-area .footer-top .single-footer-caption .footer-number h4 {
-    color: #d19f68;
+    color: rgb(50, 72, 196);
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize
@@ -4022,7 +4022,7 @@ hr {
     padding: 14px 22px;
     background: #0a0f17;
     line-height: 1;
-    color: #d19f68;
+    color: rgb(202, 65, 65);
     font-size: 14px;
     font-weight: 300
 }
@@ -4062,7 +4062,7 @@ hr {
 }
 
 .footer-area .footer-bottom .footer-copy-right p i {
-    color: #d19f68
+    color: rgb(50, 72, 196)
 }
 
 .footer-area .footer-bottom .footer-copy-right p a {
@@ -4266,7 +4266,7 @@ hr {
 }
 
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-    color: #d19f68
+    color: rgb(50, 72, 196)
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4300,7 +4300,7 @@ hr {
 }
 
 .home-blog-single:hover .blog-img-cap .blog-img .blog-date {
-    background: #d19f68
+    background: rgb(50, 72, 196)
 }
 
 .home-blog-single:hover .blog-img-cap .blog-img img {
@@ -4311,7 +4311,7 @@ hr {
 }
 
 .home-blog-single:hover .blog-img-cap .blog-cap {
-    border: 1px solid #d19f68;
+    border: 1px solid rgb(50, 72, 196);
     border-top: 0
 }
 
