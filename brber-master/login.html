@@ -9,19 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <title>Bienvenido a mi Formulario</title>
+    <link rel="shortcut icon" href="assets/img/logo/logo2.png" type="image/x-icon">
+    <title>Login</title>
 </head>
 
 <body>
     <div class="container-form sign-up">
         <div class="welcome-back">
+            
             <div class="message">
                 <h2>Bienvenido a Barberia orion</h2>
+                <a href="index.html">Ir a inicio</a>
                 <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
                 <button class="sign-up-btn">Iniciar Sesion</button>
             </div>
         </div>
-        <form class="formulario">
+        <form class="formulario" id="signup-form" onsubmit="return validateSignUp()">
             <h2 class="create-account">Crear una cuenta</h2>
             <div class="iconos">
                 <div class="border-icon">
@@ -35,18 +38,28 @@
                 </div>
             </div>
             <p class="cuenta-gratis">Crear una cuenta gratis</p>
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
-            <input type="text" placeholder="Telefono">
-            <input type="email" placeholder="Correo">
-            <input type="password" placeholder="Contraseña">
-            <input type="text" placeholder="Confirmar contraseña">
-            <input type="button" value="Registrarse">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="tel" placeholder="Telefono" required>
+            <input type="email" placeholder="Correo" required>
+            <input type="password" id="password" placeholder="Contraseña" required minlength="6">
+            <input type="password" id="confirm_password" placeholder="Confirmar contraseña" required minlength="6">
+            <button type="submit" onclick="validateSignUp()" style="width: 60%;
+            margin: auto;
+            border: solid thin white;
+            padding: 0.7rem;
+            border-radius: 2rem;
+            background-color: white;
+            font-weight: 600;
+            margin-top: 3rem;
+            font-size: .8rem;
+            cursor: pointer;
+            color: #222;">Registrar</button>
         </form>
     </div>
     <div class="container-form sign-in">
-        <form class="formulario2">
-            <h2 class="create-account2">Iniciar Sesion</h2>
+        <form class="formulario2" id="signin-form" >
+            <h2 class="create-account">Iniciar Sesion</h2>
             <div class="iconos">
                 <div class="border-icon">
                     <i class='bx bxl-instagram'></i>
@@ -59,9 +72,19 @@
                 </div>
             </div>
             <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
-            <input type="Correo" placeholder="Email">
-            <input type="Contraseña" placeholder="Contraseña">
-            <input type="button" value="Iniciar Sesion">
+            <input type="email" placeholder="correo" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit" onclick="validateSignUp()" style="width: 60%;
+            margin: auto;
+            border: solid thin white;
+            padding: 0.7rem;
+            border-radius: 2rem;
+            background-color: white;
+            font-weight: 600;
+            margin-top: 3rem;
+            font-size: .8rem;
+            cursor: pointer;
+            color: #222;">Iniciar sesión</button>
         </form>
         <div class="welcome-back">
             <div class="message">
