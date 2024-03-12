@@ -9,3 +9,20 @@ document.addEventListener('click', e => {
         $signUp.classList.toggle('active')
     }
 });
+
+function validateSignUp() {
+    var password = document.getElementById("password").value;
+    var confirm_password = document.getElementById("confirm_password").value;
+
+    if (password != confirm_password) {
+        alert("Las contraseñas no coinciden");
+        return false;
+    }
+
+    return true;
+}
+
+function validateSignIn() {
+    // You can add further validation if needed for sign-in form
+    return true;
+}
